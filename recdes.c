@@ -20,13 +20,13 @@
 		MPY       -- multiply     "
 		DIV       -- divide       "
 		RVALUE L  -- push the contents of variable L
-	    LVALUE L  -- push the address of variable L
-	**  POP       -- throw away the top valueon the stack
-	    STO       -- the R value on the top of the stack is placed in the L value below it and both are popped
-	**  COPY      -- push a copy of the top value on the stack
-	    MOD       -- pop the top two values off the stack, compute the modulus and push the result
-	    POW       -- pop the top two values and compute the exponential operation, push the result
-	    HALT      -- stop execution
+	    	LVALUE L  -- push the address of variable L
+	**  	POP       -- throw away the top valueon the stack
+	    	STO       -- the R value on the top of the stack is placed in the L value below it and both are popped
+	**  	COPY      -- push a copy of the top value on the stack
+	    	MOD       -- pop the top two values off the stack, compute the modulus and push the result
+	    	POW       -- pop the top two values and compute the exponential operation, push the result
+	    	HALT      -- stop execution
 */
 
 #include <stdio.h>  // standard i/o prototypes
