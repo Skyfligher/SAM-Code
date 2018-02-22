@@ -34,15 +34,15 @@
 #include <ctype.h>  // char function prototypes
 
 // constants
-#define END 			'$'
-#define MOD 			'%'
-#define EQ				'='
-#define SEMICOL			';'
-#define COL 			':'
-#define POWSYM			'^'
+#define END 		'$'
+#define MOD 		'%'
+#define EQ		'='
+#define SEMICOL		';'
+#define COL 		':'
+#define POWSYM		'^'
 #define CARRET          13
 #define TAB             9
-#define NEWLINE			10
+#define NEWLINE		10
 #define PLUSSYM         '+'
 #define MINUSSYM        '-'
 #define MULTSYM         '*'
@@ -50,7 +50,7 @@
 #define OPENPAREN       '('
 #define CLOSEPAREN      ')'
 #define BLANK           ' '
-#define NULLSTRING		""
+#define NULLSTRING	""
 
 typedef int boolean;
 
