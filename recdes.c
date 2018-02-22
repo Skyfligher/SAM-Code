@@ -1,18 +1,15 @@
 // filename recdes.c
 /*
-   Programmer:	Dr. Tim McGuire
-   Course:	Compiler Design
-   Date:	October 8, 1998
    Description: This program is a recursive descent compiler to
 		parse and encode expressions from the following
 		context-free grammar:
 		PROGRAM  --> begin STMT_LIST end
 		STMT_LIST--> STMT_LIST ; STMT | STMT;
-            STMT --> id := EXPR | e
-            EXPR --> EXPR + TERM | EXPR - TERM
-			TERM --> TERM * FCTR | TERM (/ or div) FCTR | TERM mod FCTR | FCTR
-			EXPO --> FCTR ^ EXPO | FCTR
-			FCTR --> id | num | ( EXPR )
+           	STMT --> id := EXPR | e
+            	EXPR --> EXPR + TERM | EXPR - TERM
+		TERM --> TERM * FCTR | TERM (/ or div) FCTR | TERM mod FCTR | FCTR
+		EXPO --> FCTR ^ EXPO | FCTR
+		FCTR --> id | num | ( EXPR )
 
   The expressions will be encoded for a hypothetical stack machine with the
   following instructions:
